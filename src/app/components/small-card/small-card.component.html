@@ -7,10 +7,10 @@
     </div>
     <div class="small-card_text">
       <div class="small-card__title">
-        <h1><a href="">{{cardTitle}}</a></h1>
+        <h1><a [routerLink]="['content', id]">{{cardTitle}}</a></h1>
       </div>
       <div class="small-card__description">
-        <a href="">{{cardDescription}}</a>
+        <a [routerLink]="['content', id]">{{cardDescription}}</a>
       </div>
     </div>
     </div>

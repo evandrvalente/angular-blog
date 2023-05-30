@@ -6,9 +6,9 @@
     >
   </div>
   <div class="highlight-card__title">
-    <h1><a href="">{{cardTitle}}</a></h1>
+    <h1><a [routerLink]="['content', id]">{{cardTitle}}</a></h1>
   </div>
   <div class="highlight-card__description">
-    <p>{{cardDescription}}</p>
+    <p><a [routerLink]="['content', id]"></a>{{cardDescription}}</p>
   </div>
 </div>
