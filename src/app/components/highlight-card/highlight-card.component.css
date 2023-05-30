@@ -1,0 +1,28 @@
+.container__highlight-card{
+  border: solid  gainsboro 2px;
+  width: 440px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: start;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.highlight-card__photo > img{
+  width: 100%;
+  min-width: 420px;
+  border-radius: 8px;
+}
+
+.highlight-card__title > h1{
+  color: royalblue;
+  font-size: 1.5rem;
+}
+
+.highlight-card__description > p{
+  color: rgb(3, 4, 4);
+  margin-top: 10px;
+}
