@@ -1,3 +1,8 @@
+header{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
 .container__articles{
   margin: 20px;
   display: flex;
