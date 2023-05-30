@@ -10,18 +10,25 @@
 }
 
 .small-card__photo {
-  height: 100%;
-    margin: 10px;
+  width: 200px;
+  margin: 10px;
 }
 
 .small-card__photo > img {
   width: 100%;
-  min-width: 80px;
+  min-width: 60px;
   border-radius: 8px;
 }
-
+.small-card__text{
+  display: flex;
+  flex-direction: column;
+}
 .small-card__title{
   display:flex;
+}
+
+.small-card__title > h1{
+  font-size: 1.2rem;
 }
 
 .separator{

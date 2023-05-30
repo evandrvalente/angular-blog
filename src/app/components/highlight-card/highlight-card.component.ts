@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-highlight-card',
@@ -6,6 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./highlight-card.component.css']
 })
 export class HighlightCardComponent implements OnInit {
+
+  @Input()
+  photoCover:string = ""
+  @Input()
+  cardTitle:string = ""
+  @Input()
+  cardDescription:string =""
 
   constructor() { }
 
